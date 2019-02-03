@@ -1,0 +1,161 @@
+.container-fluid {
+  background-color: #f1f1f1;
+  color: rgba(0, 0, 0, .87)
+}
+
+.watch-card {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  >div {
+    max-width: 360px;
+  }
+  .share-icon {
+    float: right;
+    position: relative;
+    color: #000;
+    opacity: 0.54;
+  }
+}
+
+.listing-tab .tab-content ul li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.artist-title,
+.artist-info-card,
+.artist-songs,
+.artist-events,
+.listing-tab {
+  padding: 15px 15px 5px;
+  background: #fff;
+}
+
+.artist-title,
+.artist-info-card {
+  table {
+    tr>td {
+      border-bottom: 1px solid #f5f5f5;
+      a {
+        span {
+          &:first-child {
+            margin-right: 8px;
+          }
+          &:last-child {
+            vertical-align: bottom;
+          }
+        }
+      }
+    }
+  }
+}
+
+.artist-songs {
+  .list-group .list-group-item {
+    border: none;
+    padding: 10px 0;
+    height: 70px;
+    div {
+      &:nth-child(1) {
+        margin-right: 109px;
+      }
+      &:nth-child(2) {
+        right: 0;
+        top: 15px;
+        bottom: 0;
+        position: absolute;
+      }
+    }
+  }
+}
+
+.artist-events {
+  .list-group .list-group-item {
+    border: none;
+    height: 56px;
+    padding: 10px 0;
+    div {
+      &:nth-child(1) {
+        margin-left: 0;
+        position: absolute;
+        top: 10px;
+        bottom: 0;
+      }
+      &:nth-child(2) {
+        margin-left: 120px;
+      }
+    }
+  }
+}
+
+.artist-collage {
+  img {
+    max-width: 100%;
+  }
+  position: relative;
+  max-height: 150px;
+  overflow: hidden;
+  padding: 0;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  div {
+    padding: 0;
+  }
+}
+
+.collage-rhs img {
+  margin-top: -5px;
+}
+
+.related-artist,
+.related-albums,
+.social-profiles {
+  .col-md-12 {
+    padding: 0;
+  }
+  h5 {
+    margin-top: 9px;
+  }
+  overflow: hidden;
+  padding-bottom: 10px;
+  position: relative;
+  .artist-next {
+    padding-left: 0;
+    span {
+      white-space: normal;
+      margin: 3px 0 -1px;
+      padding-bottom: 1px;
+      width: 100%;
+    }
+    .ellps {
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: block;
+      white-space: nowrap;
+    }
+  }
+}
+
+a,
+.list-group-item,
+.share-icon {
+  cursor: pointer;
+}
+
+a:hover {
+  color: #777;
+}
+
+.small-text {
+  font-size: small;
+}
+
+.view-more-text {
+  position: absolute;
+  right: 15px;
+  top: -26px;
+}
+
+.border-bottom {
+  border-bottom: solid 1px #ebebeb;
+}
